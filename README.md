@@ -1,4 +1,4 @@
-# AltV-Valea-Roleplay
+# AltV-Valea-Roleplay-Public
 Valea-Roleplay Script
 
 ## Allgemeine Regeln
