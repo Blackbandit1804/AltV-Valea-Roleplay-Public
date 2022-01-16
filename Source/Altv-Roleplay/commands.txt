@@ -1,0 +1,63 @@
+﻿
+***Ab Adminlevel 9/Entwickler & PL***
+/vehpos | speichert die Fahrzeugposition
+/testveh | tuned das aktuelle Fahrzeug
+/vscp {fahrzeugname} {preis} | setzt den Fahrzeugpreis (nicht funktioniered)
+/setAtm {name} | Setzt einen ATM
+/money {ammount} | Gibt dir Bargeld
+/ReloadDB {id} | Funktioniert nicht!
+/setBank {name} | Setzt eine Bank
+/trace | startet raytracing
+/stoptrace | stoppt raytracing
+/changeprice {shopId} {itemId} {newPrice} | Setzt den ItemPreis in einem Shop
+/changegender {genderId} | Verändert das Geschlecht
+/car {name} | Spawnt ein Fahrzeug
+/carHash {name} | Gibt den Hash eines Fahrzeugs
+/makeAdmin {accId} {adminlevel} | Vergibt adminlevel
+/tppos {x} {y} {z} | Zu Koordinate teleportieren
+/giveitem {itemname} {anzahl} | Gibt das Item
+
+***Ab Adminlevel 8/Manager***
+/license {charid} {licenseKürzel} | Vergibt eine License an einen Spieler
+/weapon {name} | Gibt die angegebene Waffe (Achtung wegen Blacklist!) (Funktioniert nicht)
+/weapon 69 | Gibt alle Waffen (Achtung wegen Blacklist!)
+
+***Ab Adminlevel 6/Superadmin***
+/announce {msg} | Adminnachricht
+/faction {charid} {factionid} | Setzt den angegebenen Spieler in die Fraktion (Als 12er!)
+
+***Ab Adminlevel 5/Admin***
+/unban {accid} | Entbannt den angegebenen account
+/dv {range} | Entfernt alle Fahrzeuge in der angegebenen range (nicht eingeparkt)
+/pv {range} | Parkt alle Fahrzeuge in der angegebenen range ein
+/fuel {range} {fuelVal} | Setzt den Tankinhalt aller Fahrzeuge in der angegebenen Range
+/revive {charId} | Revived den angegebenen Spieler
+
+***Ab Adminlevel 3/Mod***
+/kick {accid} {reason} | kickt den angegebenen account
+/ban  {accid} {reason} | bannt den angegebenen spieler
+/xcm  {accid} {reason} | bannt den angegebenen spieler
+
+
+
+
+***Ab Adminlevel 2/supporter***
+/players | Gibt eine Spielerliste wieder
+/getaccountidbymail {mail} | Gibt die AccountID zur angegebenen Mail
+/parkvehicle {plate} | Parkt das Fahrzeug mit dem angegebenen Nummernschild ein (Funktioniert nicht)
+/tp {id} | Teleportiert zum Spieler
+/bring {id} | Teleportiert den Spieler zu dir
+/pos {saveName} | Gibt die aktuelle Position wieder
+/am | Geht in den ADuty
+/dim {charid} {dimension} | Setzt den Spieler in die Dimension
+
+***Fraktionscommands***
+/FIB  | Rundnachricht (FIB)
+/LSPD | Rundnachricht (LSPD)
+/GOV  | Rundnachricht (GOV)
+
+***Ab Adminlevel 0/User***
+/ooc {msg} | OOC nachricht an Spieler in der Nähe
+/report {msg} | Wie /support aber loggt Spieler in der Nähe
+/id | gibt die aktuelle altv-id wieder (useless)
+/support {msg} | Um support zu rufen

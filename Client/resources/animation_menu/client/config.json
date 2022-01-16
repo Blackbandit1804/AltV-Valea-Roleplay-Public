@@ -1,0 +1,10 @@
+{
+    "debug": true,
+    "openKey": "0x74",
+    "saveKey": "0xBB",
+    "animations": [
+        ["Situps", "Sport", "amb@world_human_sit_ups@male@base", "base", 1, "Sport"],
+        ["Aufstehen", "Steht auf", "switch@michael@sitting", "exit_forward", 0, "Sport"],
+        ["Rauchen", "Zigarette rauchen", "amb@world_human_smoking@male@male_a@base", "base", 49, "Freizeit"]
+    ]
+}

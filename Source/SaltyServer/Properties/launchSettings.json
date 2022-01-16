@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SaltyChat.Server": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\Administrator\\Desktop\\sus"
+    }
+  }
+}

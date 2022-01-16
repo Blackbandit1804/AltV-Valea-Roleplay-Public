@@ -1,0 +1,231 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-user-select:none;
+    -moz-user-select:-moz-none;
+    -ms-user-select:none;
+    user-select:none;
+    -webkit-user-drag: none;
+}
+
+#Schluesseldienst-main {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  transform: translateX(-5%) translateY(-35%);
+  margin: 0;
+  padding: 0;
+  width: 24vw;
+  height: 30vw;
+  border-radius: .5vw;
+  background: rgba(0, 0, 0, 0.9);
+  border-top: solid .25vw #00d9ffb9;
+  border-bottom: solid .25vw #00d9ffb9;
+}
+
+.headerBody {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 0;
+  height: 12%;
+  width: 100%;
+}
+
+.underlineBody {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 0;
+  height: .15vw;
+  width: 90%;
+  border-bottom: solid .15vw #00d9ffb9;
+}
+
+.title {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8vw;
+  color: #00d9ffb9;
+}
+
+.closebtn {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  margin: 0;
+  padding: 0;
+  height: 2vw;
+  width: 2vw;
+  border-top-left-radius: .5vw;
+  border-bottom-right-radius: .5vw;
+  border: none;
+  outline: none;
+  font-size: 2vw;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+  transition: all 0.15s ease-in-out;
+  cursor: pointer;
+}
+
+.closebtn:active {
+  color: rgb(184, 0, 0);
+  opacity: 1;
+}
+
+.containerBody {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 0;
+  height: 86%;
+  width: 100%;
+}
+
+.info {
+  position: relative;
+  text-align: center;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: rgba(200, 200, 200, 1);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1vw;
+  border-bottom: solid .15vw rgba(200, 200, 200, 1);
+}
+
+.change {
+  position: relative;
+  text-align: center;
+  top: 0%;
+  left: 0%;
+  margin: 0;
+  padding: 0;
+  height: 1.8vw;
+  width: 5.5vw;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.9);
+  border: solid .15vw #00d9ffb9;
+  border-radius: .3vw;
+  color: rgba(200, 200, 200, 1);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .8vw;
+}
+
+.changeBtn {
+  position: relative;
+  text-align: center;
+  top: 0%;
+  left: 0%;
+  margin: 0;
+  padding: 0;
+  margin-top: 1%;
+  height: 1.8vw;
+  width: 6.5vw;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.9);
+  border: solid .15vw #00d9ffb9;
+  border-radius: .3vw;
+  color: rgba(200, 200, 200, 1);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: .8vw;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+.changeBtn:active {
+  border: solid .15vw #00000000;
+  background-color: #00d9ffb9;
+  color: rgba(0, 0, 0, 1);
+}
+
+.info2 {
+  position: relative;
+  text-align: center;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: rgba(200, 200, 200, 1);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1vw;
+  border-bottom: solid .15vw rgba(200, 200, 200, 1);
+}
+
+.remove {
+  position: relative;
+  text-align: center;
+  top: 0%;
+  left: 0%;
+  margin: 0;
+  padding: 0;
+  height: 1.8vw;
+  width: 5.5vw;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.9);
+  border: solid .15vw #bd0909b9;
+  border-radius: .3vw;
+  color: rgba(200, 200, 200, 1);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .8vw;
+}
+
+.removeBtn {
+  position: relative;
+  text-align: center;
+  top: 0%;
+  left: 0%;
+  margin: 0;
+  padding: 0;
+  margin-top: 1%;
+  height: 1.8vw;
+  width: 6.5vw;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.9);
+  border: solid .15vw #bd0909b9;
+  border-radius: .3vw;
+  color: rgba(200, 200, 200, 1);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: .8vw;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+.removeBtn:active {
+  border: solid .15vw #00000000;
+  background-color: #dc0a0ab9;
+  color: rgba(0, 0, 0, 1);
+}
+
+.info3 {
+  position: relative;
+  text-align: left;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 2%;
+  color: rgba(180, 180, 180, 1);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1vw;
+}
