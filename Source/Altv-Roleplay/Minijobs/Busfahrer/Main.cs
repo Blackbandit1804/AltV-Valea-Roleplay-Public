@@ -49,7 +49,7 @@ namespace Altv_Roleplay.Minijobs.Busfahrer
                 player.EmitLocked("Client:Minijob:RemoveJobMarker");
                 foreach (var veh in Alt.GetAllVehicles().Where(x => x.NumberplateText == $"BUS-{charId}").ToList())
                 {
-                    if (veh == null || !veh.Exists) continue;
+                    if (veh == null || !veh.Exists) return; //vorher continue
                     ServerVehicles.RemoveVehiclePermanently(veh);
                     await Task.Delay(5000);
                     veh.Remove();
@@ -219,7 +219,7 @@ namespace Altv_Roleplay.Minijobs.Busfahrer
                 }
                 player.SetPlayerCurrentMinijob("Busfahrer");
                 player.SetPlayerCurrentMinijobStep("FirstStepInVehicle");
-                player.SetPlayerCurrentMinijobRouteId((ulong)routeId);
+                player.SetPlayerCurrentMinijobRouteId((ulong)routeId); ServerVehicles.CreateVehicle(3581397346, charId, 2, 0, false, 0, Constants.Positions.Minijob_Busdriver_VehOutPos, Constants.Positions.Minijob_Busdriver_VehOutRot, $"BUS-{charId}", 255, 255, 255);
                 player.SetPlayerCurrentMinijobActionCount(1);
                 HUDHandler.SendNotification(player, 1, 2500, "Du hast den Minijob begonnen. Wir haben dir einen Bus am Tor ausgeparkt, steige ein.");
                 return;
