@@ -11,6 +11,7 @@ import * as hud from '/client/hud.js';
 import * as inventory from '/client/inventory.js';
 import * as keyhandler from '/client/keyhandler.js';
 import * as labor from '/client/labor.js';
+import * as storage from '/client/storage.js';
 import * as pedcreator from '/client/pedcreator.js';
 import * as markerManager from '/client/marker.js';
 import * as tablet from '/client/tablet.js';
